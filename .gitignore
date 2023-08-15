@@ -1,0 +1,14 @@
+*.pyc
+*.a
+*.so
+*.gz
+*.ply
+*.dae
+*/docs/doxygen/*
+*.tif
+*.stl
+*.obj
+*.stl*
+*.iv
+trajopt/trajopt/test/data/*
+*gh_pages/*
