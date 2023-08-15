@@ -69,9 +69,9 @@ target_cxx_version(${PROJECT_NAME}_test_data INTERFACE VERSION ${TRAJOPT_CXX_VER
 
 configure_package(NAMESPACE trajopt TARGETS ${PROJECT_NAME} ${PROJECT_NAME}_test_data)
 
-foreach(dir test/data)
-  install(DIRECTORY ${dir}/ DESTINATION share/${PROJECT_NAME}/${dir})
-endforeach()
+#foreach(dir test/data)
+#  install(DIRECTORY ${dir}/ DESTINATION share/${PROJECT_NAME}/${dir})
+#endforeach()
 
 # Mark cpp header files for installation
 install(

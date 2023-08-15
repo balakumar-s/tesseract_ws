@@ -71,3 +71,5 @@ the repos at <https://github.com/tesseract-robotics> for the licences.
 |tesseract_planning| 1627231f3d|added bitstar to ompl, updated trajopt profile to optimize for zero velocity at end|
 |tesseract_python| 8d9db169c63c2b238c6fe8ea06042983cdc51a4a| No|
 |trajopt| 0.2.0|disable bpmd |
+
+We removed mesh files and test data files in the packages to reduce overall footprint.
